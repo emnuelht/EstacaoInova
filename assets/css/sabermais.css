@@ -1,0 +1,53 @@
+.conteudo {
+    margin: 10px;
+    width: 60%;
+    margin-bottom: 10%;
+    color: #ffffffd2;
+}
+
+
+.conteudo .img__curso {
+    height: 100px;
+    background-color: #ffffffd2;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 5px #00000075;
+}
+
+.conteudo .titulo {
+    margin: 10px 30px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.conteudo .sobre__curso {
+    margin: 10px 30px;
+    text-align: justify;
+}
+
+@media(max-width: 720px) {
+    .conteudo{
+        width: 95%;
+        margin-bottom: 70px;
+    }
+
+    .conteudo .img__curso {
+        height: 60px;
+        padding: 40px;
+        margin-top: 50px;
+    }
+
+    .conteudo .titulo {
+        margin: 0;
+        font-size: 25px;
+        /* margin-left: 10px;
+        margin-top: 20px; */
+        margin-bottom: 10px;
+    }
+
+    .conteudo .sobre__curso {
+        font-size: 14px;
+        margin: 0;
+        margin-left: 10px;
+    }
+}

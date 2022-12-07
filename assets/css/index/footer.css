@@ -1,0 +1,11 @@
+footer {
+    background: #00000046;
+}
+
+footer img {
+    height: 50px;
+    padding: 20px;
+    display: block;
+    margin: auto;
+}
+

@@ -1,0 +1,186 @@
+.estacaoInova__conteudo {
+    /* width: 70%; */
+    height: 100%;
+    background-color: #b1b1b1;
+    margin: auto;
+    text-align: justify;
+    padding: 30px 10px;
+    color: #001e2c;
+    font-weight: bold;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo {
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.estacaoInova__conteudo p {
+    width: 70%;
+}
+
+.apresentacao {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #dedede9e; */
+    padding: 40px;
+    color: #b1b1b1;
+}
+
+.apresentacao__titulo {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.primerio__encontro {
+    padding: 10px;
+    text-align: center;
+    width: 66%;
+    margin-bottom: 50px;
+    background-color: #02211fb7;
+    box-shadow: 0px 2px 5px #00000069;
+    border-radius: 5px;
+}
+
+.primerio__encontro .encontro1 {
+    height: 100%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.segundo__encontro {
+    padding: 10px;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 100px;
+    background-color: #02211fb7;
+    box-shadow: 0px 2px 5px #00000069;
+    border-radius: 5px;
+}
+
+.segundo__encontro .encontro2 {
+    height: 100%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.formados_encontro {
+    padding: 10px;
+    text-align: center;
+    width: 760px;
+    margin-bottom: 100px;
+    background-color: #02211fb7;
+    box-shadow: 0px 2px 5px #00000069;
+    border-radius: 5px;
+}
+
+.formados_encontro .formados {
+    width: 100%;
+    height: 100%;
+}
+
+.apresentacao2 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #b1b1b1;
+}
+
+.other_cursos_p_turma {
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    width: 870px;
+    background-color: #02211fb7;
+    box-shadow: 0px 2px 5px #00000069;
+    border-radius: 5px;
+}
+
+.other_cursos_p_turma .IMG_002{
+    height: 100%;
+    width: 100%;
+}
+
+
+.other_cursos_p_turma p {
+    padding: 0 10px;
+    padding-bottom: 15px;
+}
+
+.other_cursos_s_turma {
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    width: 580px;
+    margin-bottom: 100px;
+    background-color: #02211fb7;
+    box-shadow: 0px 2px 5px #00000069;
+    border-radius: 5px;
+}
+
+.other_cursos_s_turma .IMG_003{
+    height: 100%;
+    width: 100%;
+}
+
+.other_cursos_s_turma p {
+    padding: 0 10px;
+    padding-bottom: 15px;
+}
+
+
+@media(max-width: 1080px) {
+    .formados_encontro {
+        height: 100%;
+        width: 100%;
+    }
+
+    .other_cursos_p_turma {
+        height: 100%;
+        width: 80%;
+    }
+
+    .other_cursos_s_turma {
+        height: 80%;
+        width: 80%;
+    }
+}
+
+@media(max-width: 720px) {
+    .estacaoInova__conteudo {
+        height: 100%;
+    }
+    .estacaoInova__conteudo p {
+        width: 90%;
+    }
+    .apresentacao{
+        width: 70%;
+    }
+    .primerio__encontro {
+        width: 100%;
+        padding: 5px;
+        padding-top: 10px;
+    }
+    .segundo__encontro {
+        width: 100%;
+    }
+
+}

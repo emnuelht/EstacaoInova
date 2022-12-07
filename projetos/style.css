@@ -1,0 +1,152 @@
+html {
+    overflow: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    /* background: linear-gradient(0deg, #397c97 0%, #155974 100%);
+    height: 100vh; */
+    background: url('../assets/img/fundo_app1.png') center center/cover;
+    height: 100vh;
+}
+
+.img_app {
+    height: 600px;
+}
+
+.container {
+    margin: 0 20px;
+    color: #ffffff;
+    margin-top: 2%;
+    width: 60%;
+}
+
+.container .nome_app {
+    font-size: 50px;
+    font-weight: bold;
+    /* text-align: center; */
+}
+
+.container_app {
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+.baixe {
+    position: relative;
+    right: -110px;
+    top: -250px;
+    
+    width: 180px;
+    text-align: center;
+}
+
+.baixe p {
+    color: #ebebeb;
+    font-size: 18px;
+}
+
+.baixe .btn_baixar {
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: 1px solid #0000004d;
+    cursor: pointer;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #292929;
+    background: #ff9900;
+}
+
+@media(max-width: 1040px) {
+    .img_app {
+        height: 500px;
+    }
+
+    .container_app {
+        position: absolute;
+        right: 0;
+        top: 27%;
+    }
+
+    .baixe {
+        position: relative;
+        right: -75px;
+        top: -180px;
+        
+        width: 180px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 880px) {
+    body {
+        background: url('../assets/img/fundo_app2.png') center center/cover;
+    }
+
+    .container {
+        margin-top: 5%;
+        width: 70%;
+    }
+
+    .img_app {
+        height: 400px;
+    }
+
+    .container_app {
+        position: absolute;
+        right: 0;
+        top: 45%;
+    }
+
+    .baixe {
+        position: relative;
+        right: -45px;
+        top: -150px;
+        
+        width: 180px;
+        text-align: center;
+    }
+}
+
+@media(max-width: 480px) {
+    .img_app {
+        height: 300px;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .container_app {
+        position: absolute;
+        right: 0;
+        top: 55%;
+    }
+
+    .baixe {
+        position: relative;
+        right: -10px;
+        top: -120px;
+        
+        width: 180px;
+        text-align: center;
+    }
+
+    .baixe p {
+        font-size: 14px;
+    }
+
+    .baixe .btn_baixar {
+        width: 60px;
+        font-size: 13px;
+        height: 20px;
+    }
+}

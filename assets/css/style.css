@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    /* background: rgb(239, 253, 255); */
+    /* background: #224c5e; */
+    background: url('../img/fundoE.png');
+}
+
+::selection {
+    color: #ffffff;
+    background-color: #0c7274;
+}
+
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #00131c;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #000c12;
+    border-radius: 4px;
+  }

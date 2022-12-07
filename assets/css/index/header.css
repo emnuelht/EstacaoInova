@@ -1,0 +1,102 @@
+.containerTopo {
+    margin-bottom: 10%;
+}
+
+.aparecerItems {
+    display: none;
+}
+
+.containerTopo .container__navegacao {
+    background: #000000ce;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.containerTopo .container__navegacao .container__items {
+    display: flex;
+    gap: 40px;
+    text-transform: uppercase;
+    margin-right: 60px;
+}
+
+.containerTopo .container__navegacao .container__items a {
+    color: #a3a3a3;
+    transition: all .4s;
+    font-weight: 600;
+}
+
+.containerTopo .container__navegacao .container__items a:hover {
+    color: #224c5e;
+    font-weight: 600;
+    text-shadow: none;
+    transition: all .4s;
+}
+
+.containerTopo .logo {
+    height: 60px;
+    margin-left: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+@media(max-width: 720px) {
+    
+    .containerTopo {
+        margin: 0;
+    }
+
+    .acaoMenu {
+        display: flex;
+        margin-bottom: 10px;
+        gap: 5px;
+        width: 90px;
+        cursor: pointer;
+    }
+
+    .aparecerItems {
+        display: block;
+        background: none;
+        border: none;
+        color: #ffffff;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .clickMenu {
+        color: #ffffff;
+        transform: rotate(90deg);
+    }
+    
+    .containerTopo .container__navegacao {
+        display: block;
+        padding: 10px;
+    }
+
+    .containerTopo .container__navegacao .container__items.ativo {
+        display: block;
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .containerTopo .container__navegacao .container__items .items__link {
+        /* border-top: 1px solid #ffffff10; */
+        border-bottom: 1px solid #ffffff10;
+        padding: 5px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .containerTopo .container__navegacao .container__items {
+        display: none;
+    }
+
+    .containerTopo .logo {
+        height: 50px;
+        display: block;
+        margin: auto;
+    }
+}
