@@ -1,4 +1,4 @@
-# 🚉 Estação Inova
+# 🧩 Estação Inova
 
 Site do projeto **Estação Inova – Eixo Tecnologia**, uma iniciativa da Estação Conhecimento de Arari na área de tecnologia.
 
